@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<submenu></submenu>
+	<unique-id>1765712848792867-4</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Example for a custom action</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>audacity</icon>
+	<name>Audacity</name>
+	<submenu></submenu>
+	<unique-id>1765715004881491-5</unique-id>
+	<command>audacity %N</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<audio-files/>
+	<video-files/>
+</action>
+<action>
+	<icon>gimp</icon>
+	<name>GIMP</name>
+	<submenu></submenu>
+	<unique-id>1766584246382378-1</unique-id>
+	<command>gimp %N</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<image-files/>
+</action>
+<action>
+	<icon>mediainfo</icon>
+	<name>MediaInfo</name>
+	<submenu></submenu>
+	<unique-id>1765715046565486-6</unique-id>
+	<command>mediainfo-gui %N</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<audio-files/>
+	<image-files/>
+	<video-files/>
+</action>
+</actions>
