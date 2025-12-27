@@ -1,0 +1,5 @@
+<profiles version="1">
+ <profile args="acodec=flac ar=44100 channels=2 crf=%quality f=mp4 properties=lossless/H.264 vcodec=libx264" category="Без втрат/HQ" defaultaudiobitrate="0" defaultaudioquality="0" defaultbitrate="0" defaultquality="0" extension="mp4" name="CPU Lossless" qualities="1,31"/>
+ <profile args="acodec=flac ar=44100 bf=0 channels=2 crf=%quality f=mp4 g=250 movflags=+faststart vcodec=libx264" category="Generic (HD for web, mobile devices...)" defaultaudiobitrate="0" defaultaudioquality="0" defaultbitrate="0" defaultquality="0" defaultspeedindex="6" extension="mp4" name="MP4-H264/AAC" qualities="15,45" speeds="preset=veryslow;preset=slower;preset=slow;preset=medium;preset=fast;preset=faster;preset=veryfast;preset=superfast;preset=ultrafast"/>
+ <profile args="acodec=flac ar=44100 channels=2 f=mp4 rc=constqp vcodec=h264_nvenc vq=%quality vqp=%quality" category="Hardware Accelerated (experimental)" defaultaudiobitrate="0" defaultaudioquality="0" defaultbitrate="0" defaultquality="0" extension="mp4" name="NVENC H264/FLAC Lossless" qualities="0,51"/>
+</profiles>

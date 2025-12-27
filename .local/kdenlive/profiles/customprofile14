@@ -1,0 +1,12 @@
+description=HD 720p 24 fps (копія)
+frame_rate_num=24
+frame_rate_den=1
+width=1060
+height=620
+progressive=1
+bottom_field_first=0
+sample_aspect_num=496
+sample_aspect_den=477
+display_aspect_num=16
+display_aspect_den=9
+colorspace=709
