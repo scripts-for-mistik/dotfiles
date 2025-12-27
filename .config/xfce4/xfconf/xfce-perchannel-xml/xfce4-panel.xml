@@ -1,0 +1,115 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=8;x=1280;y=1426"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="size" type="uint" value="26"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="6"/>
+        <value type="int" value="7"/>
+        <value type="int" value="12"/>
+        <value type="int" value="10"/>
+        <value type="int" value="11"/>
+        <value type="int" value="4"/>
+        <value type="int" value="5"/>
+        <value type="int" value="8"/>
+        <value type="int" value="9"/>
+      </property>
+      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="nrows" type="uint" value="1"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="grouping" type="bool" value="false"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="задіяно з&apos;єднання із мережею wi-fi «molod.39»: molod.39 (82%)"/>
+        <value type="string" value="задіяно з&apos;єднання із мережею wi-fi «molod.39»: molod.39 (77%)"/>
+        <value type="string" value="немає з&apos;єднання з мережею"/>
+        <value type="string" value="vmware-tray"/>
+        <value type="string" value="аплет networkmanager"/>
+        <value type="string" value="задіяно з&apos;єднання із мережею ethernet «дротове з&apos;єднання 1»"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="qBittorrent"/>
+        <value type="string" value="flameshot"/>
+        <value type="string" value="TelegramDesktop"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="obs"/>
+        <value type="string" value="blueman"/>
+      </property>
+    </property>
+    <property name="plugin-7" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-8" type="string" value="clock">
+      <property name="digital-layout" type="uint" value="3"/>
+      <property name="digital-time-format" type="string" value="%d.%m.%Y %R"/>
+    </property>
+    <property name="plugin-9" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-1" type="string" value="whiskermenu">
+      <property name="menu-width" type="int" value="582"/>
+      <property name="menu-height" type="int" value="592"/>
+      <property name="favorites" type="array">
+        <value type="string" value="firefox.desktop"/>
+        <value type="string" value="org.qbittorrent.qBittorrent.desktop"/>
+        <value type="string" value="org.polymc.PolyMC.desktop"/>
+        <value type="string" value="org.kde.kdenlive.desktop"/>
+        <value type="string" value="audacity.desktop"/>
+        <value type="string" value="gimp.desktop"/>
+        <value type="string" value="com.obsproject.Studio.desktop"/>
+        <value type="string" value="xfce4-taskmanager.desktop"/>
+        <value type="string" value="io.github.Qalculate.qalculate-qt.desktop"/>
+        <value type="string" value="xclicker.desktop"/>
+        <value type="string" value="libreoffice-startcenter.desktop"/>
+        <value type="string" value="thunar.desktop"/>
+        <value type="string" value="libreoffice-writer.desktop"/>
+        <value type="string" value="libreoffice-calc.desktop"/>
+        <value type="string" value="libreoffice-impress.desktop"/>
+        <value type="string" value="xfce-display-settings.desktop"/>
+        <value type="string" value="xfce4-terminal.desktop"/>
+      </property>
+      <property name="show-button-title" type="bool" value="true"/>
+      <property name="view-mode" type="int" value="0"/>
+      <property name="show-command-shutdown" type="bool" value="true"/>
+      <property name="show-command-restart" type="bool" value="true"/>
+      <property name="recent" type="array">
+        <value type="string" value="org.xfce.mousepad.desktop"/>
+        <value type="string" value="gparted.desktop"/>
+        <value type="string" value="xfce4-terminal.desktop"/>
+        <value type="string" value="org.telegram.desktop._2d4f71aabcc9471f7f5a29e3bdf42766.desktop"/>
+        <value type="string" value="nvidia-settings.desktop"/>
+        <value type="string" value="thunar.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-4" type="string" value="xkb"/>
+    <property name="plugin-10" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="known-players" type="string" value="firefox;org.telegram.desktop._2d4f71aabcc9471f7f5a29e3bdf42766;vlc"/>
+    </property>
+    <property name="plugin-11" type="string" value="power-manager-plugin"/>
+    <property name="plugin-12" type="string" value="xfce4-clipman-plugin"/>
+  </property>
+</channel>
